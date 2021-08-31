@@ -77,10 +77,10 @@ console.log(
         $image.src = $inputImage.get()[0].value;
         $tdImage.appendChild($image);
 
-        $tdModel.innerText = $inputModel.get()[0].value.replace(/[<>]/g,'');
-        $tdYear.innerText = $inputYear.get()[0].value.replace(/[<>]/g,'');
-        $tdPlate.innerText = $inputPlate.get()[0].value.replace(/[<>]/g,'');
-        $tdColor.innerText = $inputColor.get()[0].value.replace(/[<>]/g,'');
+        $tdModel.innerText = $inputModel.get()[0].value;
+        $tdYear.innerText = $inputYear.get()[0].value;
+        $tdPlate.innerText = $inputPlate.get()[0].value;
+        $tdColor.innerText = $inputColor.get()[0].value;
 
         $tr.appendChild($tdImage);
         $tr.appendChild($tdModel);
