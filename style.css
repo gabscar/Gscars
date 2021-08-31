@@ -61,7 +61,7 @@ table td{
     border: 2px solid rgb(114, 113, 113);
     font-size: 24px;
     text-align: center;
-    
+    justify-content: center;
 }
 
 table th{
@@ -69,4 +69,5 @@ table th{
     border-radius: 5px;
     text-align: center;
     font-size: 18px;
+    justify-content: center;
 }

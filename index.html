@@ -13,7 +13,7 @@
             <label data-js="companyName"></label>
             <label data-js="companyPhone"></label>
         </header>
-        <form data-js="form" class="form" action="">
+        <form data-js="form" class="form" action="" onsubmit="window.location.reload();">
             <input type = 'url' placeholder="URL da Imagem" data-js = "inputImage" required="required">
             <input type = 'text' placeholder="Marca / Modelo" data-js = "inputModel" required="required">
             <input type = 'text' placeholder="Ano" data-js = "inputYear" required="required">
@@ -29,6 +29,7 @@
                     <th>Ano</th>
                     <th>Placa</th>
                     <th>Cor</th>
+                    <th>Delete</th>
                 </tr>
             </thead>
             <tbody data-js="table-car"></tbody>
